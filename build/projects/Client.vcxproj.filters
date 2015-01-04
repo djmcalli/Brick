@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="depend">
+      <UniqueIdentifier>{35B585F8-2157-B0CE-0A12-C422F652371F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="depend\headers">
+      <UniqueIdentifier>{00C1995F-EC8E-8D65-D522-FE8BC18F69CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="depend\headers\GL">
+      <UniqueIdentifier>{62F2CE4E-CE08-CDE4-1780-580683D59D6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="depend\headers\SDL2">
+      <UniqueIdentifier>{648F5B3E-D0F0-384C-595E-7FFEC5BE6F0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="depend\headers\jpeg">
+      <UniqueIdentifier>{B5EA683E-214C-464C-AAB9-8CFE161A7D0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="depend\headers\stb_image">
+      <UniqueIdentifier>{9AB139D4-86D6-8854-AF21-6EE49BA58772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="depend\libs-msvc">
+      <UniqueIdentifier>{34AC069C-20A5-25EE-49D7-0A73352F05FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="depend\libs-msvc\x64">
+      <UniqueIdentifier>{A571455B-9100-CF24-3A1F-E31F268DDFCA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="depend\libs-msvc\x86">
+      <UniqueIdentifier>{E971455B-D500-CF24-7E1F-E31F6A8DDFCA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\depend\libs-msvc\x64\SDL2.dll">
+      <Filter>depend\libs-msvc\x64</Filter>
+    </None>
+    <None Include="..\..\depend\libs-msvc\x64\SDL2.lib">
+      <Filter>depend\libs-msvc\x64</Filter>
+    </None>
+    <None Include="..\..\depend\libs-msvc\x64\SDL2main.lib">
+      <Filter>depend\libs-msvc\x64</Filter>
+    </None>
+    <None Include="..\..\depend\libs-msvc\x64\SDL2test.lib">
+      <Filter>depend\libs-msvc\x64</Filter>
+    </None>
+    <None Include="..\..\depend\libs-msvc\x64\freetype.lib">
+      <Filter>depend\libs-msvc\x64</Filter>
+    </None>
+    <None Include="..\..\depend\libs-msvc\x64\glew.lib">
+      <Filter>depend\libs-msvc\x64</Filter>
+    </None>
+    <None Include="..\..\depend\libs-msvc\x64\jpeg.lib">
+      <Filter>depend\libs-msvc\x64</Filter>
+    </None>
+    <None Include="..\..\depend\libs-msvc\x86\SDL2.dll">
+      <Filter>depend\libs-msvc\x86</Filter>
+    </None>
+    <None Include="..\..\depend\libs-msvc\x86\SDL2.lib">
+      <Filter>depend\libs-msvc\x86</Filter>
+    </None>
+    <None Include="..\..\depend\libs-msvc\x86\SDL2main.lib">
+      <Filter>depend\libs-msvc\x86</Filter>
+    </None>
+    <None Include="..\..\depend\libs-msvc\x86\SDL2test.lib">
+      <Filter>depend\libs-msvc\x86</Filter>
+    </None>
+    <None Include="..\..\depend\libs-msvc\x86\freetype.lib">
+      <Filter>depend\libs-msvc\x86</Filter>
+    </None>
+    <None Include="..\..\depend\libs-msvc\x86\glew.lib">
+      <Filter>depend\libs-msvc\x86</Filter>
+    </None>
+    <None Include="..\..\depend\libs-msvc\x86\jpeg.lib">
+      <Filter>depend\libs-msvc\x86</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\depend\headers\GL\glew.h">
+      <Filter>depend\headers\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\GL\glxew.h">
+      <Filter>depend\headers\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\GL\wglew.h">
+      <Filter>depend\headers\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_assert.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_atomic.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_audio.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_bits.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_blendmode.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_clipboard.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_config.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_cpuinfo.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_endian.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_error.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_events.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_filesystem.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_gamecontroller.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_gesture.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_haptic.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_hints.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_joystick.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_keyboard.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_keycode.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_loadso.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_log.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_main.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_messagebox.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_mouse.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_mutex.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_name.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_opengl.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_opengles.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_opengles2.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_pixels.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_platform.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_power.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_quit.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_rect.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_render.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_revision.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_rwops.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_scancode.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_shape.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_stdinc.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_surface.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_system.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_syswm.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_test.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_test_assert.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_test_common.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_test_compare.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_test_crc32.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_test_font.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_test_fuzzer.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_test_harness.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_test_images.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_test_log.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_test_md5.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_test_random.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_thread.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_timer.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_touch.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_types.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_version.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\SDL_video.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\begin_code.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\SDL2\close_code.h">
+      <Filter>depend\headers\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\jpeg\jconfig.h">
+      <Filter>depend\headers\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\jpeg\jerror.h">
+      <Filter>depend\headers\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\jpeg\jmorecfg.h">
+      <Filter>depend\headers\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\jpeg\jpeglib.h">
+      <Filter>depend\headers\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\stb_image\stb_image.h">
+      <Filter>depend\headers\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depend\headers\stb_image\stb_image_write.h">
+      <Filter>depend\headers\stb_image</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

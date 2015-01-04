@@ -3,7 +3,7 @@ function getAbsoluteFromSolution(p)
 	return path.getabsolute(path.join(sol.basedir, p))
 end
 
-solution "Feather"
+solution "Brick"
 	configurations { "Debug", "Release" }
 	platforms { "x32", "x64" }
 	flags { "Symbols", "Unicode" }
