@@ -30,3 +30,6 @@
 # Debugging STUFF (stolen from callan but censored FOR THE CHILDREN)
 *.ilk
 *.pdb
+
+# Do not want premake results being ran into Git!
+build/projects/
